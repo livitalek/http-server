@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 100px;
+        }
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Регистрация</h1>
+    <form action="/" method="POST">
+        <input type="text" name="login" placeholder="Введите логин" required><br>
+        <input type="text" name="name" placeholder="Введите имя" required><br>
+        <input type="password" name="password" placeholder="Введите пароль" required><br>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+</body>
+</html>
